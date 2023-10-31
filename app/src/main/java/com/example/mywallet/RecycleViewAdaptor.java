@@ -17,8 +17,6 @@ public class RecycleViewAdaptor extends RecyclerView.Adapter<RecycleViewAdaptor.
     Context context;
     LinkedList<FinancialOperation> list;
 
-    int type;
-
     @Override
     public int getItemViewType(int position) {
         return list.get(position).getType();
