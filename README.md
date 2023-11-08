@@ -12,11 +12,11 @@ The app stores this information in a singly linked list for easy access and mana
 #Visual Representation
 
 My Wallet displays the recorded financial operations in a clear and intuitive manner using a RecyclerView.
-Each entry includes the amount, description, and date-time of the financial operation.
+Each entry includes the amount, description, and date-time of the transiction.
 
 #Budget Calculation
 
-The app calculates your budget by counting the total number of financial operations in the list.
+The app calculates your budget by counting the total number of transiction in the list.
 It then presents this budget in a straightforward manner.
 
 #Data Persistence
